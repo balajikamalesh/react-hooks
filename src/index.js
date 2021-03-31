@@ -4,6 +4,8 @@ import State from "./hooks/useState";
 import Effect from "./hooks/useEffect";
 import Context from "./hooks/useContext";
 import Reducer from './hooks/useReducer';
+import Memo from './hooks/useMemo';
+import Callback from './hooks/useCallback';
 import './index.css'
 
 function App() {
@@ -16,6 +18,10 @@ function App() {
       <Context />
       <hr />
       <Reducer />
+      <hr/>
+      <Memo />
+      <hr/>
+      <Callback/>
     </div>
   );
 }
