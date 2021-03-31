@@ -2,6 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom";
 import State from "./hooks/useState";
 import Effect from "./hooks/useEffect";
+import Context from "./hooks/useContext";
+import Reducer from './hooks/useReducer';
+import './index.css'
 
 function App() {
   return (
@@ -10,6 +13,9 @@ function App() {
       <hr />
       <Effect />
       <hr />
+      <Context />
+      <hr />
+      <Reducer />
     </div>
   );
 }
